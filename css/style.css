@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background-color: hsl(185, 75%, 39%);
+  background-image: url(../images/bg-pattern-top.svg),
+    url(../images/bg-pattern-bottom.svg);
+  background-position: right 42vw bottom 42vh, left 42vw top 42vh;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+  padding-top: 50px;
+}
+
+main {
+  width: 324px;
+  border-radius: 10px;
+}
+
+main img {
+  max-width: 100%;
+  border-radius: 10px 10px 0 0;
+  display: block;
+}
+
+main article {
+  background-color: #fff;
+}
+
+main article {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 70px;
+  border-radius: 0 0 10px 10px;
+}
+
+main article img {
+  display: block;
+  position: absolute;
+  top: -22%;
+  border-radius: 50%;
+  border: thick solid #fff;
+}
+
+main article h2 {
+  text-align: center;
+  width: 100%;
+  font-size: 1rem;
+  color: hsl(229, 23%, 23%);
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+main article h2 span {
+  color: hsl(0, 0%, 59%);
+}
+
+main article > span {
+  font-size: 0.75rem;
+  color: hsl(0, 0%, 59%);
+  margin-bottom: 28px;
+}
+
+main article footer {
+  width: 100%;
+  border-top: thin solid hsla(0, 0%, 59%, 0.5);
+  padding: 28px 45px 26px 41px;
+  border-radius: 0 0 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+main article footer div {
+  display: flex;
+  justify-content: center;
+  justify-self: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+main footer div span:first-of-type {
+  color: hsl(229, 23%, 23%);
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+main footer div span:last-of-type {
+  color: hsl(0, 0%, 59%);
+  font-weight: 400;
+  font-size: 0.7rem;
+}
+
+body > footer {
+  width: 100%;
+  font-size: 11px;
+  text-align: center;
+}
+body > footer a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 1440px) {
+  body {
+    background-position: right 52.5vw bottom 45vh, left 50vw top 40vh;
+  }
+}
